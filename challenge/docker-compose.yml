@@ -1,0 +1,9 @@
+version: '2'
+services:
+  level_11:
+    image: clusir-ceh-20200311/level:11
+    hostname: clusir-ceh-20200311
+    container_name: clusir-ceh-20200311
+    build: .
+    ports:
+      - 127.0.0.1:2211:22
